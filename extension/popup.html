@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MailWatch</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 260px;
+        padding: 14px;
+      }
+      h3 {
+        margin-top: 0;
+      }
+      button {
+        padding: 8px 12px;
+        margin-top: 8px;
+        border-radius: 6px;
+        border: 1px solid #444;
+        background-color: #f0f0f0;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #ddd;
+      }
+      #status {
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>MailWatch</h3>
+    <div id="status">Extension active.</div>
+    <button id="test">Test on current tab</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
